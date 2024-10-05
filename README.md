@@ -1,5 +1,5 @@
-
 # my-elasticsearch
+
 ## Overview
 
 The goal of this project is to implement a primitive version of the elasticsearch. This project is purely for educational purposes and is not to be used in any production environment.

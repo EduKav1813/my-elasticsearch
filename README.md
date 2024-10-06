@@ -19,9 +19,8 @@ The project consists out of x main parts:
    For simplicity, only one type of search will be available - word match, which will return documents with the closest word match, where longer words have more weight.
    
 	1. The algorithm to handle the search
-	2. Search across all documents.
-	3. Search across a specific document.
-	4. Limit query output.
+	2. Search across a specific collection.
+	3. Limit query output.
 	   
 3. CLI interface - the program will be accessed from the cli interface.
 

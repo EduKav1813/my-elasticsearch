@@ -4,7 +4,18 @@
 
 The goal of this project is to implement a primitive version of the elasticsearch. This project is purely for educational purposes and is not to be used in any production environment.
 
-While simplistic, this projects should be very modular and open for future extensions, even if none will come.
+While simplistic, this project should be modular and open for future
+extensions, even if none will come.
+
+## What you need to run it
+
+The main dependencies are:
+
+1. Python 3.8 or older.
+2. MongoDB.
+
+The current version of the project only supports the MongoDB installed locally
+as a database.
 
 ## How to run
 
@@ -24,7 +35,7 @@ The basic commands are the `insert_document` and `search`. The `insert_document`
 populates the database with documents, and the `search` command allows you to
 search through your documents with a query.
 
-## The Requirements
+## The Requirements for the project
 
 The project consists out of 3 main parts:
 

@@ -60,3 +60,8 @@ class DatabaseClient:
         documents_list = self.database[collection].find().to_list()
 
         return list(map(dict_to_document_mapper, documents_list))
+
+    def delete_documents(self, name: str, collection: str = None) -> None:
+        if not collection:
+            collection = self.default_collection
+        self.database[collection].delete_many({"name": name})

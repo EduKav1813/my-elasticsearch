@@ -26,7 +26,7 @@ search through your documents with a query.
 
 ## The Requirements
 
-The project consists out of x main parts:
+The project consists out of 3 main parts:
 
 1. Database - functionality to store data and use it for search purposes.
    1. Add documents.

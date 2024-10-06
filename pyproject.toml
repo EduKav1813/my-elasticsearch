@@ -13,6 +13,7 @@ pymongo = "^4.10.1"
 pydantic = "^2.9.2"
 python-dotenv = "^1.0.1"
 pytest = "^8.3.3"
+fire = "^0.7.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.8.0"
@@ -22,3 +23,6 @@ pytest = "^8.3.3"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+cli = "my_elasticsearch.cli:main"

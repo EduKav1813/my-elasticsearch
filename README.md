@@ -7,7 +7,7 @@ The goal of this project is to implement a primitive version of the elasticsearc
 While simplistic, this project should be modular and open for future
 extensions, even if none will come.
 
-## What you need to run it
+## Installation
 
 The main dependencies are:
 
@@ -29,10 +29,10 @@ as a database.
    `poetry run cli insert_document --name='MyDocument' --content='I love reading
 tutorials'`
 
-   If the command you want to run requires some arguments, it will let you know.
+   The command will notify about any required arguments, if necessary.
 
 The basic commands are the `insert_document` and `search`. The `insert_document`
-populates the database with documents, and the `search` command allows you to
+populates the database with documents, and the `search` command allows to
 search through your documents with a query.
 
 ## The Requirements for the project
